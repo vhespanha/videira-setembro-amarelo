@@ -93,18 +93,14 @@
 
 <style>
     .reload {
-        background-image: url("refresh.png");
+        background-image: none;
         background-color: rgba(0, 0, 0, 0);
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100pt;
-        width: 100pt;
-        position: fixed;
-        top: 70%;
-        left: 43%;
+        height: 100%;
+        width: 100% !important;
+        position: absolute;
+        top: 0%;
+        left: 0%;
         box-shadow: none;
-        animation: zoom-in-animation 2s ease-in-out;
 
     }
     .content-wrapper {
@@ -119,7 +115,7 @@
         text-align: center;
         animation: zoom-in-animation 2s ease-in-out;
         color: #0f0f0f;
-        font-size: 60pt;
+        font-size: 40px;
     }
     .overlay {
         position: absolute; /* Para posicionar a overlay dentro do elemento pai */
@@ -151,7 +147,7 @@
     }
 
     .logos img {
-        width: 180pt; /* Defina o tamanho desejado para as logos */
+        width: 150pt; /* Defina o tamanho desejado para as logos */
         height: auto; /* Mantém a proporção da imagem */
         border-radius: 20px;
         box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);

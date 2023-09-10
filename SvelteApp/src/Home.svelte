@@ -33,7 +33,6 @@
     ];
 </script>
 
-<!-- Home.svelte -->
 <div class="home-container">
     <h1>O que você está sentindo?</h1>
     <h2>Selecione e receba uma mensagem</h2>
@@ -65,7 +64,7 @@
     }
 
     .logos img {
-      width: 180pt;
+      width: 150pt;
       height: auto;
       border-radius: 20px;
       box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
@@ -74,4 +73,5 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+
 </style>
