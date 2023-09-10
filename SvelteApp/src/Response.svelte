@@ -93,7 +93,7 @@
 
 <style>
     .reload {
-        background-image: url("refresh.png") !important;
+        background-image: url("refresh.png");
         background-color: rgba(0, 0, 0, 0);
         background-size: 50%;
         background-repeat: no-repeat;
