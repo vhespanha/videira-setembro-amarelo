@@ -1,0 +1,14 @@
+{
+  "routes": [
+    { "src": "/api/.*", "dest": "GoServer/main" }
+  ]
+}
+{
+  "build": {
+    "functions": {
+      "GoServer/main": {
+        "runtime": "go1.x"
+      }
+    }
+  }
+}
