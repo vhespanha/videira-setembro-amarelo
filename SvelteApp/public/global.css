@@ -6,7 +6,7 @@ html, body, #app, .home-container {
   }
 
 body {
-      background-image: url("build/bg.png");
+      background-image: url("bg.png");
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
@@ -51,7 +51,7 @@ button {
       border: none;
       outline: none;
       box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.50);
-      background-image: url("build/button_bg.png");
+      background-image: url("button_bg.png");
       background-size: cover;
       overflow: hidden;
       text-align: center;
