@@ -1,100 +1,102 @@
 /* global.css */
 html, body, #app, .home-container {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-  }
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
 
 body {
-      background-image: url("bg.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: white;
-      font-size: 30pt !important;
-      line-height: 0.3;}
+        background-image: url("bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 30pt !important;
+        line-height: 0.3;
+        font-family: 'Roboto', sans-serif;
+}
 
-.home-container {
-      width: 100%;
-      padding: 20px;
-      text-align: center;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      outline: none;
-  }
+ .home-container {
+     width: 100%;
+     padding: 20px;
+     text-align: center;
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     outline: none;
+ }
 
-.feeling-list {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin-top: 20px;
-      width: 100%;
-  }
+ .feeling-list {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 20px;
+     width: 100%;
+ }
 
-.button-container {
-      display: inline-block;
-      position: relative;
-      margin-right: 30px;
-  }
+ .button-container {
+     display: inline-block;
+     position: relative;
+     margin-right: 30px;
+ }
 
-button {
-      width: 200pt !important;
-      height: 370pt;
-      border-radius: 20px;
-      color: #0f0f0f;
-      font-size: 40pt;
-      font-weight: bold;
-      border: none;
-      outline: none;
-      box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.50);
-      background-image: url("button_bg.png");
-      background-size: cover;
-      overflow: hidden;
-      text-align: center;
-      line-height: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      color: white;
-  }
+ button {
+     width: 200pt !important;
+     height: 370pt;
+     border-radius: 20px;
+     color: #0f0f0f;
+     font-size: 40pt;
+     font-weight: bold;
+     border: none;
+     outline: none;
+     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.50);
+     background-image: url("button_bg.png");
+     background-size: cover;
+     overflow: hidden;
+     text-align: center;
+     line-height: 2;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     color: white;
+ }
 
 
-.gif-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      pointer-events: none;
-  }
+ .gif-container {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     pointer-events: none;
+ }
 
-.gif-container img {
-      width: 160px;
-      height: 160px;
-  }
-button.felicidade {
-      background-color: #fbb83d;
-  }
+ .gif-container img {
+     width: 160px;
+     height: 160px;
+ }
+ button.felicidade {
+     background-color: #fbb83d;
+ }
 
-button.tristeza {
-      background-color: #264b93;
-  }
+ button.tristeza {
+     background-color: #264b93;
+ }
 
-button.medo {
-      background-color: #4c3492;
-  }
+ button.medo {
+     background-color: #4c3492;
+ }
 
-button.raiva {
-      background-color: #f02e35;
-  }
+ button.raiva {
+     background-color: #f02e35;
+ }
 
-button.ansiedade {
-      background-color: #3ab066;
-  }
+ button.ansiedade {
+     background-color: #3ab066;
+ }
 
-button.não_sei {
-      background-color: #87408f;
-  }
+ button.não_sei {
+     background-color: #87408f;
+ }
