@@ -7,7 +7,7 @@ html, body, #app, .home-container {
 
 body {
         background-image: url("bg.png");
-        background-size: cover;
+        background-size: fit;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
