@@ -13,15 +13,15 @@ body {
         flex-direction: column;
         align-items: center;
         color: white;
-        font-size: 25pt !important;
+        font-size: 23pt !important;
         line-height: 0.3;
         font-family: 'Roboto', sans-serif;
     }
 
 .home-container {
         width: 100%;
-        padding: 20px;
-        text-align: center;
+        padding: 15px;
+        text-align: center !important;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
@@ -55,20 +55,19 @@ button {
         background-image: url("button_bg.png");
         background-size: cover;
         overflow: hidden;
-        text-align: center;
+        text-align: center !important;
         line-height: 2;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         color: white;
-        text-align: center;
     }
 @media (max-width: 1280px) {
         .button-container button {
             width: 120pt !important;
             height: 230pt;
             font-size: 15pt;
-            text-align: center;
+            text-align: center !important;
         }
         .gif-container img {
             width: 110px !important;
