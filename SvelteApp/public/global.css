@@ -47,7 +47,6 @@ button {
         width: 190pt !important;
         height: 360pt;
         border-radius: 20px;
-        color: #0f0f0f;
         font-size: 40pt;
         font-weight: bold;
         border: none;
@@ -62,6 +61,7 @@ button {
         flex-direction: column;
         justify-content: flex-start;
         color: white;
+        text-align: center;
     }
 @media (max-width: 1280px) {
         .button-container button {
