@@ -22,3 +22,10 @@
     "sirv-cli": "^2.0.0"
   }
 }
+{
+  "scripts": {
+    "electron": "electron electron.js",
+    "start": "npm run electron",
+    "build": "your-build-command"
+  }
+}
