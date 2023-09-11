@@ -121,8 +121,8 @@
         position: absolute; /* Para posicionar a overlay dentro do elemento pai */
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 120%;
+        height: 120%;
         background-color: white; /* Defina a cor e opacidade desejadas aqui */
         z-index: -1; /* Certifique-se de que a overlay esteja acima da imagem de fundo */
         pointer-events: none; /* Para permitir cliques nos elementos subjacentes */
