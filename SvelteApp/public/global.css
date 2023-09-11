@@ -22,6 +22,7 @@ body {
         width: 100%;
         padding: 15px;
         text-align: center !important;
+        margin-left: 10px;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
